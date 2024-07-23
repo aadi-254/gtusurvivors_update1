@@ -1,0 +1,627 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+nav{
+    position: absolute;
+    height: 12.6vh;
+    width: 100vw;
+    display: flex;
+    background: rgba(228, 226, 226, 0.253);
+}
+nav:hover{
+    background: rgba(183, 183, 183, 0.37);
+}
+
+nav .logo{
+    position: relative;
+    left: 8%;
+    background: url("omputer2.jpg");
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+
+nav .icon{
+    position: absolute;
+    right: calc(2.6vw - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap: 2.4vw;
+}
+.icon a{
+    width: calc(40px + 1.2vw);
+}
+#twitter{
+    font-size: 35px;
+    color: rgb(0, 179, 255);
+}
+#youtube{
+    font-size: 35px;
+    color: red;
+}
+#facebook{
+    font-size: 35px;
+    color: rgb(71, 71, 241);
+}
+#instagram{
+    font-size: 35px;
+    
+}
+
+
+/************ page 1 *****************/
+
+.page1{
+    height: 100vh;
+    width: 100vw;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image{
+    background: rgba(255, 255, 255, 0.833);
+    z-index: -3;
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    border: 0px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+
+}
+.image img{
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+}
+.head{
+    position: absolute;
+    top:30%;
+    right: 3%;
+    height: 50vh;
+    width: 60vw;
+    background: transparent;
+    text-align: center;
+    align-content: center;
+    font-family: "poppins", system-ui;
+        font-style: normal;
+
+}
+
+.head p{
+    font-weight: bold;
+    font-size: calc(4.5vw + 20px);
+}
+
+
+/************ page 2 *****************/
+
+
+.page2{
+    position: absolute;
+    top: 99vh;
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    background: black;
+}
+
+.page2 h1{
+    font-size: calc(3vw + 20px);
+    font-family: "poppins", system-ui;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    top: 10%;
+    align-content: center;
+}
+.para{
+    width: 80vw;
+    height: 80vh;
+    color: transparent;
+    font-size: calc(1.2vw + 12px);
+    font-family: "poppins", system-ui;
+    font-style: normal;
+    display: inline;
+    padding-top: 20px;
+    line-height: calc(1.2vw + 28px);
+    text-align: justify;
+    align-content: center;  
+    color: hsl(0 0% 100% / 0.2);
+    background: linear-gradient(90deg, rgb(217, 217, 236),white);
+    -webkit-background-clip: text;
+    background-size: 10% 100%;
+    background-clip: text;
+    background-repeat: no-repeat;
+}
+
+/****************************** page 3 *****************/
+
+
+.page3{
+    position: absolute;
+    top: 190vh;
+    height: 90vh;
+    width: 100vw;
+}
+.p3h{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: calc(3.6vw + 26px);
+    font-family: "poppins", system-ui;
+    font-style: normal;
+}
+
+.page3 .syllabus{
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns:1fr 1fr   ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40%;
+    width: 34vw;
+}
+.syllabus a{
+    font-size: 23px;
+    text-decoration: none;
+    height: 60%;
+    width: 40%;
+    background: rgb(242, 242, 242);
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.syllabus a:hover{
+    border-radius: 10px;
+    transition-duration: 500ms;
+    box-shadow: 4px 4px 7px grey;
+    transition: 800ms;
+}
+.page3 .image3{
+    height: 70%;
+    width: 46vw;
+    background: url("Blue.jpg");
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+/********** page 4  *********/
+
+.page4{
+    position: absolute;
+    top: 280vh;
+    height: 90vh;
+    width: 100vw;
+}
+.p4h{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    font-size: calc(3.6vw + 26px);
+    font-family: "poppins", system-ui;
+    font-style: normal;
+}
+.page4 .materials{
+    position: absolute;
+    top: 40%;
+    right: 7%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns:1fr 1fr   ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40%;
+    width: 34vw;
+    gap: 1.7vh;
+}
+.materials a{
+    font-size: 23px;
+    text-decoration: none;
+    height: 60%;
+    width: 40%;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+}
+.materials a:hover{
+    border-radius: 10px;
+    transition-duration: 500ms;
+    box-shadow: 2px 4px 7px grey;
+    transition: 800ms;
+}
+
+
+.page4 .image4{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    height: 70%;
+    width: 46vw;
+    background: url("unnamed.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+/********** parallex *********/
+.parallax {
+    position: absolute;
+    top: 380vh;
+    height: 80vh;
+    width: 100vw;
+    background : url('gtubuilding.jpg');
+    opacity: 0.8; /* Change the URL to your image */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+    padding-top: 0%;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+.parallax h1{
+    opacity: 1;
+}
+
+/**** page 5 ****/
+
+.page5{
+    position: absolute;
+    top: 460vh;
+    height: 90vh;
+    width: 100vw;
+}
+.p5h{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: calc(3.6vw + 26px);
+    font-family: "poppins", system-ui;
+    font-style: normal;
+}
+
+.page5 .pyqs{
+    position: absolute;
+    top: 35%;
+    left: 7%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns:minmax(100px,1fr) minmax(100px,1fr) ;
+    grid-template-rows: minmax(100px,1fr) minmax(100px,1fr) minmax(100px,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50%;
+    width: 34vw;
+}
+.pyqs a{
+    font-size: 23px;
+    text-decoration: none;
+    height: 50%;
+    width: 40%;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.pyqs a:hover{
+    border-radius: 10px;
+    transition-duration: 500ms;
+    box-shadow: 2px 4px 7px grey;
+    transition: 800ms;
+}
+.page5 .image5{
+    height: 70%;
+    width:46vw;
+    background: url("Untitled.jpg");
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+/******* cgpa  ********/ 
+.cgpa{
+    position: absolute;
+    top:550vh;
+    height: 130vh;
+    width: 100vw;
+    background: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.cgpa h1{
+    position: absolute;
+    top: 7%;
+    left: 2%;
+    font-size: calc(2vw + 20px);
+}
+
+.cgpa p{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 49%;
+    height: 70%;
+    font-size: calc(1.2vw + 7px);
+    font-family: "poppins", system-ui;
+    font-style: normal;
+}
+
+.cgpa img{
+    position: absolute;
+    height: 80%;
+    width: 30%;
+    right: 10%;
+    top: 10%;
+}
+
+/*********************  footer *******************/
+
+footer{
+    position: absolute;
+    top:690vh;
+    height: 100vh;
+    width: 100vw;
+    background: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.fhead{
+    position: absolute;
+    font-size: calc(5vw + 20px);
+    top: calc(3.6vh + 22px);
+    left: 6%;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.4px;
+}
+.hlogo{
+    height: 40%;
+    width: 30%;
+    position: absolute;
+    top: calc(6vw + 160px);
+    left: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hlogo .s1{
+    font-size: calc(3vw + 20px);
+    color: rgb(73, 73, 73);
+    font-weight: bold;
+}
+.hlogo .s2{
+    font-size: calc(3vw + 20px);
+    color: white;
+    font-weight: bold;
+}
+.data{
+    height: 80%;
+    width: 48%;
+    position: absolute;
+    top: calc(5vw + 60px);
+    right: 8%;
+    font-size: calc(1.2vw + 16px);
+    line-height: calc(1.6vw + 24px);
+    align-content: center;
+}
+
+
+/**************************************************** media ***************************************/
+@media screen and (max-width:680px) {
+    
+    /*********** page 3 *********/
+
+
+.page3{
+    top: 200vh;
+    height: 60vh;
+    width: 100vw;
+}
+.p3h{
+    top: 3%;
+}
+
+.page3 .syllabus{
+    position: absolute;
+    top: 22%;
+    left: -4%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    height: 40%;
+    width: 44vw;
+}
+.syllabus a{
+    font-size: 18px;
+}
+
+    .page3 .image3{
+        height: 40%;
+        width: 56vw;
+        top: 22%;
+        right: 6%;
+        
+    }
+
+    /************************ page 4 *********/
+        
+.page4{
+    top: 250vh;
+    height: 60vh;
+    width: 100vw;
+}
+.p4h{
+    position: absolute;
+    top: 3%;
+}
+
+.page4 .materials{
+    position: absolute;
+    top: 22%;
+    right: -4%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    height: 40%;
+    width: 44vw;
+}
+.materials a{
+    font-size: 18px;
+}
+
+    .page4 .image4{
+        height: 40%;
+        width: 56vw;
+        top: 22%;
+        left: 6%;
+        
+    }
+
+.parallax{
+    top: 300vh;
+    height: 60vh;
+}
+        /*********** ************  page 5 *********/
+        
+.page5{
+    top: 375vh;
+    height: 50vh;
+    width: 100vw;
+}
+.p5h{
+    position: absolute;
+    top: 3%;
+}
+
+.page5 .pyqs{
+    position: absolute;
+    top: 24%;
+    left: -4%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    height: 60%;
+    width: 44vw;
+}
+.pyqs a{
+    font-size: 18px;
+}
+
+.page5 .image5{
+    height: 40%;
+    width: 56vw;
+    top: 30%;
+    right: 6%;     
+}
+
+/******** cgpa ******/
+    .cgpa{
+        top:440vh;
+        height: 160vh;
+    }
+    
+    .cgpa h1{
+        position: absolute;
+        top: 3%;
+        left: 2%;
+        font-size: calc(2vw + 20px);
+    }
+    
+    .cgpa p{
+        position: absolute;
+        top: 10%;
+        left: 3%;
+        width: 90%;
+        height: 40%;
+        font-size: calc(1.2vw + 9px);
+        text-align: justify;
+    }
+    
+    .cgpa img{
+        position: absolute;
+        height: 50%;
+        width: 90%;
+        right: 4%;
+        top: 45%;
+    }
+
+
+    /**** footer ****/
+    footer{
+        top: 605vh;
+    }
+
+    .fhead{
+    font-size: calc(6vw + 25px);
+
+    }
+    .data{
+        top: 40%;
+        right: 2%;
+        height: 50%;
+        width: 90%;
+    }
+
+    .hlogo{
+        left: 4%;
+        width: 90%;
+        height: 40%;
+        top: 10%;
+    }
+
+    .hlogo .s1{
+        left: 4%;
+        font-size: calc(5vw + 25px);
+    }
+    .hlogo .s2{
+        left: 2%;
+        font-size: calc(5vw + 25px);
+    }
+
+
+}
